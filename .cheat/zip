@@ -1,0 +1,11 @@
+# Create zip file
+zip archive.zip file1 directory/
+
+# zip folder
+zip -r archive.zip fold
+
+# Create zip file with password
+zip -P password archive.zip file1
+
+# To list, test and extract zip archives, see unzip
+cheat unzip

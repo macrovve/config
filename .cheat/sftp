@@ -1,0 +1,14 @@
+# 登录sftp
+```bash
+sftp bx437@128.1.1.1
+```
+
+# 下载文件
+```bash
+get test.py
+```
+
+# 上传文件
+```bash
+put test.py
+```
