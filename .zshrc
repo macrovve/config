@@ -101,10 +101,15 @@ source $ZSH/oh-my-zsh.sh
 hash -d ws=~/Desktop/Workspace
 /usr/local/etc/profile.d/z.sh
 
-# cheat configuration
+# cheat configuration (https://github.com/cheat/cheat)
 export CHEAT_EDITOR=vim
-export CHEAT_USER_DIR='~/Workspace/config/cheats'
+# enabling syntax highlighting
+export CHEAT_COLORS=true
+# must be "light" (default) or "dark"
+export CHEAT_COLORSCHEME=light 
+
 # coursera programming language smlnj configuration
 export PATH="$PATH:/usr/local/smlnj/bin"
+
 # dotfile backup config
 alias config='/usr/bin/git --git-dir=/Users/macrovve/.config/ --work-tree=/Users/macrovve'

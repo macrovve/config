@@ -1,4 +1,4 @@
-# config for [@macrovv](https://github.com/macrovve)
+# config for [@macrovve](https://github.com/macrovve)
 
 ## Requirements
 
